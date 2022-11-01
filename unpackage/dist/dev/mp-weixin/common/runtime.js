@@ -105,11 +105,11 @@
 /******/
 /******/
 /******/ 		// mini-css-extract-plugin CSS loading
-/******/ 		var cssChunks = {"uni_modules/uni-list/components/uni-list-item/uni-list-item":1,"uni_modules/uni-list/components/uni-list/uni-list":1,"uni_modules/uni-load-more/components/uni-load-more/uni-load-more":1,"components/common/userInfoBtn":1,"components/neil-modal/neil-modal":1,"uni_modules/uni-icons/components/uni-icons/uni-icons":1,"uni_modules/uni-badge/components/uni-badge/uni-badge":1};
+/******/ 		var cssChunks = {"components/common/userInfoBtn":1,"components/neil-modal/neil-modal":1};
 /******/ 		if(installedCssChunks[chunkId]) promises.push(installedCssChunks[chunkId]);
 /******/ 		else if(installedCssChunks[chunkId] !== 0 && cssChunks[chunkId]) {
 /******/ 			promises.push(installedCssChunks[chunkId] = new Promise(function(resolve, reject) {
-/******/ 				var href = "" + ({"node-modules/@dcloudio/uni-cli-shared/components/unicloud-db":"node-modules/@dcloudio/uni-cli-shared/components/unicloud-db","uni_modules/uni-list/components/uni-list-item/uni-list-item":"uni_modules/uni-list/components/uni-list-item/uni-list-item","uni_modules/uni-list/components/uni-list/uni-list":"uni_modules/uni-list/components/uni-list/uni-list","uni_modules/uni-load-more/components/uni-load-more/uni-load-more":"uni_modules/uni-load-more/components/uni-load-more/uni-load-more","components/common/userInfoBtn":"components/common/userInfoBtn","components/neil-modal/neil-modal":"components/neil-modal/neil-modal","uni_modules/uni-icons/components/uni-icons/uni-icons":"uni_modules/uni-icons/components/uni-icons/uni-icons","uni_modules/uni-badge/components/uni-badge/uni-badge":"uni_modules/uni-badge/components/uni-badge/uni-badge"}[chunkId]||chunkId) + ".wxss";
+/******/ 				var href = "" + ({"components/common/userInfoBtn":"components/common/userInfoBtn","components/neil-modal/neil-modal":"components/neil-modal/neil-modal"}[chunkId]||chunkId) + ".wxss";
 /******/ 				var fullhref = __webpack_require__.p + href;
 /******/ 				var existingLinkTags = document.getElementsByTagName("link");
 /******/ 				for(var i = 0; i < existingLinkTags.length; i++) {

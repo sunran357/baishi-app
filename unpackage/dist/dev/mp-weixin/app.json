@@ -1,7 +1,7 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/index/newIndex/newIndex",
+    "pages/loadByAccount/index",
     "pages/mine/index"
   ],
   "subPackages": [],
@@ -22,6 +22,12 @@
         "iconPath": "static/images/tabbar/home.png",
         "selectedIconPath": "static/images/tabbar/home-selected.png",
         "text": "首页"
+      },
+      {
+        "pagePath": "pages/loadByAccount/index",
+        "iconPath": "static/images/tabbar/user.png",
+        "selectedIconPath": "static/images/tabbar/user-selected.png",
+        "text": "登录"
       },
       {
         "pagePath": "pages/mine/index",

@@ -1,12 +1,5 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
-		// {
-		// 	"path": "pages/ads/index",
-		// 	"style": {
-		// 		"navigationBarTitleText": "uni-小程序",
-		// 		"navigationBarBackgroundColor": "#FFFFFF"
-		// 	}
-		// },
 		{
 			"path": "pages/index/index",
 			"style": {
@@ -15,9 +8,9 @@
 			}
 		},
 		{
-			"path": "pages/index/newIndex/newIndex",
+			"path": "pages/loadByAccount/index",
 			"style": {
-				"navigationBarTitleText": "首页2",
+				"navigationBarTitleText": "登录",
 				"navigationBarBackgroundColor": "#FFFFFF"
 			}
 		},
@@ -45,6 +38,12 @@
 				"iconPath": "static/images/tabbar/home.png",
 				"selectedIconPath": "static/images/tabbar/home-selected.png",
 				"text": "首页"
+			},
+			{
+				"pagePath": "pages/loadByAccount/index",
+				"iconPath": "static/images/tabbar/user.png",
+				"selectedIconPath": "static/images/tabbar/user-selected.png",
+				"text": "登录"
 			},
 			{
 				"pagePath": "pages/mine/index",
