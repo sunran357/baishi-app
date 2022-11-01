@@ -1,0 +1,1 @@
+<view class="user-info-container data-v-40fb575a"><button class="user-info-btn data-v-40fb575a" open-type="getUserInfo" withCredentials="true" data-event-opts="{{[['getuserinfo',[['mpGetUserInfo',['$event']]]]]}}" bindgetuserinfo="__e"><slot></slot></button></view>

@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "个人中心",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "usingComponents": {
+    "neil-modal": "/components/neil-modal/neil-modal",
+    "user-info-btn": "/components/common/userInfoBtn"
+  }
+}

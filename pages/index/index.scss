@@ -1,0 +1,22 @@
+.list-view-container {
+	width: 327px;
+	height: 112px;
+	opacity: 1;
+	border-radius: 4px;
+	background: rgba(255, 255, 255, 1);
+	box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.06);
+	padding: 20rpx;
+	.list-wrapper {
+		display: flex;
+	}
+	.img-li {
+		width: 88px;
+		height: 88px;
+		opacity: 1;
+		border-radius: 4px;
+		background: url(https://ds.js.design/assets/smartFill/img400164da755928.jpg);
+	}
+	.name, .describe {
+		display: inline-block;
+	}
+}
